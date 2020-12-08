@@ -2,6 +2,7 @@
   "expo": {
     "name": "shopApp",
     "slug": "shopApp",
+    "icon": "./assets/shop.png",
     "platforms": [
       "ios",
       "android",
@@ -9,7 +10,10 @@
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "android": {
+      "package": "com.bemal.dvanitha",
+      "versionCode": 1
+    },
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
